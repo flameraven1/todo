@@ -55,7 +55,7 @@ export default function App() {
   return (
     <div className="bg-gradient-to-r from-orange-700 via-orange-300 to-orange-900 min-w-full min-h-dvh flex flex-col justify-start items-center gap-5">
       <div className="w-full h-full flex flex-col justify-center items-center gap-4 mt-15">
-      <h1 className="animate-bounce font-sans text-5xl font-extrabold text-orange-800">TODO</h1>
+      <h1 className="animate-bounce font-sans text-5xl font-extrabold text-orange-800">Listifier</h1>
 
       <div className="w-[80%] flex gap-3 justify-center items-center">
       <input onChange={(e)=>dispatch({type : "setInput" , payload : e.target.value})} className="w-[100%] h-[50px] p-3 md:w-[80%] md:p-4 border-none focus:outline-0 focus:ring-2 focus:ring-orange-900 bg-white" type="text" placeholder="Enter your todos......"/>
